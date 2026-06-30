@@ -7,23 +7,36 @@
 
     <link rel="icon" href="./favicon/soup_7066809.png">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/main.css">
 
     <script defer src="./js/script.js"></script>
 
+    <meta name="description" content="Explore as melhores receitas e os principais tipos de sopas de diversas culturas do mundo no SoupWorld.">
+    <meta name="author" content="Felipe Satoru Meucci">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="SoupWorld - O Mundo das Sopas">
+    <meta property="og:description" content="Explore as melhores receitas e os principais tipos de sopas de diversas culturas do mundo no SoupWorld.">
+    <meta property="og:image" content="https://felipesm7391.github.io/trabalho/Trabalho2front/Images/1283soup.png">
+    <meta property="og:url" content="https://felipesm7391.github.io/trabalho/Trabalho2front/index.html">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://www.youtube.com">
+    <link rel="preconnect" href="https://www.google.com">
 </head>
 <body>
     <header>
         <nav>
             <a class="logo_nav" href="#Inicio">
-                <img class="logo" src="./Images/1283soup.png" alt="Inicio">
+                <img class="logo" src="./Images/1283soup.png" alt="Inicio" fetchpriority="high">
                 Início
             </a>
             <div class="botoes_nav">
             <!-- <a href="#Hitoriasopas">História</a> -->
             <a href="#Tipos">Tipos</a>
+            <a href="#World">Países</a>
             <a href="#Receitas">Receitas</a>
+            <a href="#Form">Conte-nós</a>
             <a href="#Sobremp">Sobre</a>
             </div>
         </nav>
@@ -42,7 +55,7 @@
                 <h1 class="textbem">Bem vindo ao <span>SoupWorld</span></h1>
                 <p class="desc">Descubra os tipos e as principais receitas de sopas do <br> mundo.</p>
                 </div>
-                <img class="velha" src="./Images/sopavelha.png" alt="Desenho antigo de uma sopa">
+                <img class="velha" src="./Images/sopavelha.png" alt="Desenho antigo de uma sopa" fetchpriority="high">
             </div>
         </div>
 
@@ -59,28 +72,28 @@
                 <h2>Tipos</h2>
 <div class="todos">
     <div class="tipo">
-        <img src="./Images/tipo1.jpg" alt="Sopa rala">
+        <img src="./Images/tipo1.jpg" alt="Sopa rala" loading="lazy">
         <div class="tipo-txt">
             <h3>Sopas ralas</h3>
             <p>Caldos leves e consommés — líquidos transparentes feitos pelo cozimento lento de carnes, legumes ou ossos. São a base de muitas culinárias do mundo, reconfortantes e de fácil digestão.</p>
         </div>
     </div>
     <div class="tipo">
-        <img src="./Images/sopa_creme_de_espinafre_7722_paso_4_600.webp" alt="Sopa espessa">
+        <img src="./Images/sopa_creme_de_espinafre_7722_paso_4_600.webp" alt="Sopa espessa" loading="lazy">
         <div class="tipo-txt">
             <h3>Sopas espessas</h3>
             <p>Engrossadas com creme de leite, farinha, amido ou pelos próprios ingredientes batidos. Têm textura aveludada e sabor mais encorpado que os caldos. O creme de abóbora, o creme de espinafre e o vichyssoise francês são exemplos clássicos, servidas quentes ou frias dependendo da receita.</p>
         </div>
     </div>
     <div class="tipo">
-        <img src="./Images/sopa-fria-de-tomate-com-salada-alentejana-1.webp" alt="Sopa fria">
+        <img src="./Images/sopa-fria-de-tomate-com-salada-alentejana-1.webp" alt="Sopa fria" loading="lazy">
         <div class="tipo-txt">
             <h3>Sopas frias</h3>
             <p>Servidas geladas, são refrescantes e muito populares no verão. O gazpacho espanhol, feito de tomates crus, pepino e pimentão, é o representante mais famoso dessa categoria.</p>
         </div>
     </div>
     <div class="tipo">
-        <img src="./Images/sopa-da-pedra-de-almeirim-768x512.webp" alt="Sopas nacionais">
+        <img src="./Images/sopa-da-pedra-de-almeirim-768x512.webp" alt="Sopas nacionais" loading="lazy">
         <div class="tipo-txt">
             <h3>Sopas nacionais</h3>
             <p>Toda cultura tem sua sopa símbolo, receitas passadas de geração em geração que representam a identidade de um povo. O pho vietnamita, o ramen japonês, o borscht ucraniano e a sopa da pedra portuguesa são exemplos de pratos que vão muito além da alimentação e carregam história.</p>
@@ -91,14 +104,18 @@
         </section>
 
 
+<section id="World">
+    <h2>As sopas pelo mundo!</h2>
 
+    <a href="#Inicio" class="btn-volta">Voltar ao início</a>
+</section>
 
 
 
 <section id="Receitas">
     <h2>Principais receitas!</h2>
         <div class="receitas" id="receita1">
-            <img src="./Images/sopaaaa.webp" alt="Imagem do missoshiru">
+            <img src="./Images/sopaaaa.webp" alt="Imagem do missoshiru" loading="lazy">
             <div class="emcima">
                 <div class="detalhes">
 
@@ -109,7 +126,7 @@
                     <h3>Sopa japonesa missoshiru</h3>
                     <hr>
                 </div>
-                <iframe class="video" src="https://www.youtube.com/embed/WB4Ya-dCn0w?si=-ZOot2egfEpjlGdS" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="video" src="https://www.youtube.com/embed/WB4Ya-dCn0w?si=-ZOot2egfEpjlGdS" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
             </div>
         </div>
         <div class="listaig" id="lista1">
@@ -144,7 +161,7 @@
         </div>
 
         <div class="receitas" id="receita2">
-            <img src="./Images/sopareceita1.webp" alt="Sopa clássica de legumes">
+            <img src="./Images/sopareceita1.webp" alt="Sopa clássica de legumes" loading="lazy">
             <div class="emcima">
                 <div class="detalhes">
 
@@ -155,7 +172,7 @@
                     <h3>Sopa Clássica de Legumes</h3>
                     <hr>
                 </div>
-                <iframe class="video" src="https://www.youtube.com/embed/OC_n0Mcw-CI?si=D0uS4g6vphcjS-Li" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="video" src="https://www.youtube.com/embed/OC_n0Mcw-CI?si=D0uS4g6vphcjS-Li" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
             </div>
         </div>
         <div class="listaig" id="lista2">
@@ -185,7 +202,7 @@
         </div>
 
         <div class="receitas" id="receita3">
-            <img src="./Images/image.png" alt="Sopa de cebola">
+            <img src="./Images/image.png" alt="Sopa de cebola" loading="lazy">
             <div class="emcima">
                 <div class="detalhes">
 
@@ -196,7 +213,7 @@
                     <h3>Sopa de cebola</h3>
                     <hr>
                 </div>
-                <iframe class="video" src="https://www.youtube.com/embed/EmzkM26Z9RI?si=dTJnAhFRLdtq8bLO" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="video" src="https://www.youtube.com/embed/EmzkM26Z9RI?si=dTJnAhFRLdtq8bLO" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
             </div>
         </div>
         <div class="listaig" id="lista3">
@@ -228,7 +245,7 @@
         </div>
 
         <div class="receitas" id="receita4">
-            <img src="./Images/Sopa-eslava.webp" alt="Sopa eslava">
+            <img src="./Images/Sopa-eslava.webp" alt="Sopa eslava" loading="lazy">
             <div class="emcima">
                 <div class="detalhes">
 
@@ -239,7 +256,7 @@
                     <h3>Sopa Eslava</h3>
                     <hr>
                 </div>
-                <iframe class="video" src="https://www.youtube.com/embed/10F9N39sxb0?si=rnV__U1fWizk7mWt" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="video" src="https://www.youtube.com/embed/10F9N39sxb0?si=rnV__U1fWizk7mWt" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
             </div>
         </div>
         <div class="listaig" id="lista4">
@@ -282,23 +299,23 @@
 
 <div class="galeria">
     <a href="https://holyfoods.com.br/blogs/blog/a-historia-da-sopa-de-onde-vem-a-sopa">
-        <img src="./Images/sopavelha.png" alt="Desenho antigo de uma sopa">
+        <img src="./Images/sopavelha.png" alt="Desenho antigo de uma sopa" loading="lazy">
         <p>Fonte: Imagem retirada de site holyfoods</p>
     </a>
     <a href="https://www.receitasnestle.com.br/receitas/missoshiro-sopa-de-misso">
-        <img src="./Images/sopaaaa.webp" alt="Missoshiru">
+        <img src="./Images/sopaaaa.webp" alt="Missoshiru" loading="lazy">
         <p>Fonte: Imagem retirada de site receitas nestle</p>
     </a>
     <a href="https://todeschinialimentos.com.br/receita/sopa-de-legumes-classica">
-        <img src="./Images/sopareceita1.webp" alt="Sopa de legumes">
+        <img src="./Images/sopareceita1.webp" alt="Sopa de legumes" loading="lazy">
         <p>Fonte: Imagem retirada do site da Todeschini</p>
     </a>
     <a href="https://www.youtube.com/watch?v=EmzkM26Z9RI">
-        <img src="./Images/image.png" alt="Sopa de cebola">
+        <img src="./Images/image.png" alt="Sopa de cebola" loading="lazy">
         <p>Fonte: Print do vídeo do YouTube de Erick Jacquin</p>
     </a>
     <a href="https://guiadacozinha.com.br/receitas/sopa-eslava/">
-        <img src="./Images/Sopa-eslava.webp" alt="Sopa eslava">
+        <img src="./Images/Sopa-eslava.webp" alt="Sopa eslava" loading="lazy">
         <p>Fonte: Imagem retirada do site guiadacozinha</p>
     </a>
 </div>
@@ -306,6 +323,52 @@
 
     <a href="#Inicio" class="btn-volta">Voltar ao início</a>
 </section>
+    <h2>Agora é sua vez!
+        Conte-nós sobre sua sopa favorita
+    </h2>
+
+
+
+
+
+
+
+
+
+
+
+<section id="Form">
+
+
+
+
+
+
+
+
+
+
+
+
+    <a href="#Inicio" class="btn-volta">Voltar ao início</a>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -319,4 +382,9 @@
 </body>
 </html>
 
-<!--    adicionar outras receitas, tentando só copiar a mesma mais 3 vezes, adicionar pelo menos um tipo de sopa, verificar outros requisitos do trab  pode usar clamp   --> 
+
+<!--  <span>Tempo:  45 min <br><br> Dificuldade: <br> Fácil <br><br><br><br> Serve até: <br> 6 pessoas <br><br><br><br>Feito por: <br> Todeschini</span>  -->
+  
+    
+<!--
+https://www-campbellsoup-co-uk.translate.goog/blog/what-are-different-soup-types/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc--/>
