@@ -1,0 +1,11 @@
+:root {
+    /* Cores principais */
+    --azul-escuro: #14305e;
+    --azul-medio: #1e4d8c;
+    --laranja: #c8651b;
+    --bege: #c9a96e;
+    --bege-claro: #e8dcc8;
+    --font-base: "Balsamiq Sans", sans-serif;
+    --radius: 15px;
+    --border-width: 3px;
+}

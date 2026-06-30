@@ -1,0 +1,202 @@
+.tipo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    background-color: var(--azul-escuro);
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: var(--border-width) solid white;
+    animation: surgiu linear;
+    animation-timeline: view();
+    animation-range: cover 0% cover 40%;
+}
+
+.tipo img {
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 280px;
+    object-fit: cover;
+    min-width: 0;
+}
+
+.tipo-txt {
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin: clamp(1rem, 3vw, 2.5rem);
+}
+
+.tipo-txt h3 {
+    font-size: clamp(1.2rem, 2.5vw, 3.8rem);
+    color: var(--laranja);
+    border-bottom: var(--border-width) solid var(--laranja);
+}
+
+.tipo-txt p {
+    font-size: clamp(0.85rem, 1.5vw, 1.1rem);
+    color: var(--bege-claro);
+    line-height: 1.65;
+}
+
+.receitas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.receitas img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.emcima {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-top: -11.75%;
+    border: var(--border-width) solid white;
+    background-color: var(--bege);
+    border-radius: var(--radius);
+    min-height: 35vh;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.detalhes {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 370px;
+    flex-direction: column;
+    min-width: 0;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.detalhes h3 {
+    font-size: clamp(1.5rem, 2.6rem, 3.9rem);
+}
+
+.detalhes hr {
+    width: 12vw;
+    height: 1.5vh;
+    background-color: var(--laranja);
+    border: none;
+    border-radius: var(--radius);
+}
+
+.video {
+    aspect-ratio: 16 / 9;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 370px;
+    border-left: var(--border-width) solid white;
+    border-radius: 0 var(--radius) var(--radius) 0;
+    height: auto;
+    min-width: 0;
+}
+
+.bot {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.bt-sopa, .next {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    background-color: var(--laranja);
+    color: white;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    transition: all 0.3s linear;
+}
+
+.bt-sopa:hover, .next:hover {
+    background-color: var(--azul-medio);
+    color: var(--laranja);
+}
+
+.listaig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+    flex-direction: column;
+    max-width: 90vw;
+    margin-inline: auto;
+}
+
+.listaig h3 {
+    font-size: 2.5rem;
+    color: var(--laranja);
+    border-top: 5px solid var(--laranja);
+    border-bottom: 5px solid var(--laranja);
+}
+
+.listaig ul {
+    margin: 2vw;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.listaig li {
+    margin: 2rem;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.galeria a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: clamp(370px, 45%, 700px);
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.galeria a:hover {
+    color: var(--laranja);
+}
+
+.galeria img {
+    width: clamp(280px, 45%, 700px);
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px;
+    transition: all 0.3s linear;
+}
+
+.galeria img:hover {
+    height: 35vh;
+    width: clamp(350px, 60%, 800px);
+    border: 5px solid var(--laranja);
+}
+
+.btn-volta {
+    margin-top: auto;
+    text-decoration: none;
+    color: var(--laranja);
+    transition: all 0.2s linear;
+}
+
+.btn-volta:hover {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
